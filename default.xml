@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <!-- remote servers to query -->
+  <remote name="openembedded"    alias="origin"  fetch="https://git.openembedded.org/" />
+  <remote name="yocto"           alias="origin"  fetch="https://git.yoctoproject.org/" />
+  <remote name="toolchain"       alias="origin"  fetch="https://github.com/kraj" />
+
+  <!-- YOCTO & OE -->
+
+  <!-- OpenEmbedded core layer and feature supportive layer -->
+  <project name="openembedded-core"    path="openembedded-core"    remote="openembedded"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
+  <project name="bitbake"              path="bitbake"              remote="openembedded"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
+  <project name="meta-openembedded"    path="meta-openembedded"    remote="openembedded"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
+
+  <!-- meta-virtualization -->
+  <project name="meta-virtualization"  path="meta-virtualization"  remote="yocto"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
+
+  <!-- SELinux layer -->
+  <project name="meta-selinux"         path="meta-selinux"         remote="yocto"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
+
+<!-- meta-clang layer -->
+  <project name="meta-clang"         path="meta-clang"         remote="toolchain"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
+</manifest>
