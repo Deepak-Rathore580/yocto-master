@@ -10,16 +10,16 @@
   <!-- YOCTO & OE -->
 
   <!-- OpenEmbedded core layer and feature supportive layer -->
-  <project name="openembedded-core"    path="openembedded-core"    remote="openembedded"  revision="scarthgap"  upstream="scarthgap" />
-  <project name="bitbake"              path="bitbake"              remote="openembedded"  revision="2.8"  upstream="2.8" />
-  <project name="meta-openembedded"    path="meta-openembedded"    remote="openembedded"  revision="scarthgap"  upstream="scarthgap" />
+  <project name="openembedded-core"    path="openembedded-core"    remote="openembedded"  revision="master"  upstream="master" />
+  <project name="bitbake"              path="bitbake"              remote="openembedded"  revision="master"  upstream="master" />
+  <project name="meta-openembedded"    path="meta-openembedded"    remote="openembedded"  revision="master"  upstream="master" />
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization"  path="meta-virtualization"  remote="yocto"  revision="scarthgap"  upstream="scarthgap"/>
+  <project name="meta-virtualization"  path="meta-virtualization"  remote="yocto"  revision="master"  upstream="master"/>
 
   <!-- SELinux layer -->
-  <project name="meta-selinux"         path="meta-selinux"         remote="yocto"  revision="scarthgap"  upstream="scarthgap"/>
+  <project name="meta-selinux"         path="meta-selinux"         remote="yocto"  revision="master"  upstream="master"/>
 
 <!-- meta-clang layer -->
-  <project name="meta-clang"         path="meta-clang"         remote="toolchain"  revision="scarthgap"  upstream="scarthgap"/>
+  <project name="meta-clang"         path="meta-clang"         remote="toolchain"  revision="master"  upstream="master"/>
 </manifest>
