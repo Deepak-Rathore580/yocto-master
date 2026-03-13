@@ -10,16 +10,16 @@
   <!-- YOCTO & OE -->
 
   <!-- OpenEmbedded core layer and feature supportive layer -->
-  <project name="openembedded-core"    path="openembedded-core"    remote="openembedded"  revision="scarthgap"  upstream="scarthgap" />
-  <project name="bitbake"              path="bitbake"              remote="openembedded"  revision="2.8"  upstream="2.8" />
-  <project name="meta-openembedded"    path="meta-openembedded"    remote="openembedded"  revision="scarthgap"  upstream="scarthgap" />
+  <project name="openembedded-core"    path="openembedded-core"    remote="openembedded"  revision="whinlatter"  upstream="whinlatter" />
+  <project name="bitbake"              path="bitbake"              remote="openembedded"  revision="2.16"  upstream="2.16" />
+  <project name="meta-openembedded"    path="meta-openembedded"    remote="openembedded"  revision="whinlatter"  upstream="whinlatter" />
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization"  path="meta-virtualization"  remote="yocto"  revision="scarthgap"  upstream="scarthgap"/>
+  <project name="meta-virtualization"  path="meta-virtualization"  remote="yocto"  revision="whinlatter"  upstream="whinlatter"/>
 
   <!-- SELinux layer -->
-  <project name="meta-selinux"         path="meta-selinux"         remote="yocto"  revision="scarthgap"  upstream="scarthgap"/>
+  <project name="meta-selinux"         path="meta-selinux"         remote="yocto"  revision="whinlatter"  upstream="whinlatter"/>
 
 <!-- meta-clang layer -->
-  <project name="meta-clang"         path="meta-clang"         remote="toolchain"  revision="scarthgap"  upstream="scarthgap"/>
+  <project name="meta-clang"         path="meta-clang"         remote="toolchain"  revision="whinlatter"  upstream="whinlatter"/>
 </manifest>
