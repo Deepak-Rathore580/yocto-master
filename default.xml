@@ -10,16 +10,16 @@
   <!-- YOCTO & OE -->
 
   <!-- OpenEmbedded core layer and feature supportive layer -->
-  <project name="openembedded-core"    path="openembedded-core"    remote="openembedded"  revision="master"  upstream="master" />
-  <project name="bitbake"              path="bitbake"              remote="openembedded"  revision="master"  upstream="master" />
-  <project name="meta-openembedded"    path="meta-openembedded"    remote="openembedded"  revision="master"  upstream="master" />
+  <project name="openembedded-core"    path="openembedded-core"    remote="openembedded"  revision="wrynose"  upstream="wrynose" />
+  <project name="bitbake"              path="bitbake"              remote="openembedded"  revision="2.18"  upstream="2.18" />
+  <project name="meta-openembedded"    path="meta-openembedded"    remote="openembedded"  revision="wrynose"  upstream="wrynose" />
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization"  path="meta-virtualization"  remote="yocto"  revision="master"  upstream="master"/>
+  <project name="meta-virtualization"  path="meta-virtualization"  remote="yocto"  revision="wrynose"  upstream="wrynose"/>
 
   <!-- SELinux layer -->
-  <project name="meta-selinux"         path="meta-selinux"         remote="yocto"  revision="master"  upstream="master"/>
+  <project name="meta-selinux"         path="meta-selinux"         remote="yocto"  revision="wrynose"  upstream="wrynose"/>
 
 <!-- meta-clang layer -->
-  <project name="meta-clang"         path="meta-clang"         remote="toolchain"  revision="master"  upstream="master"/>
+  <project name="meta-clang"         path="meta-clang"         remote="toolchain"  revision="wrynose"  upstream="wrynose"/>
 </manifest>
